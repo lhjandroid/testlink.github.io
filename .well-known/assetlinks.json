@@ -1,0 +1,35 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ai.nextbillion.testnavigationdeeplink",
+      "sha256_cert_fingerprints": [
+        "FA:00:BC:B0:BB:2C:3C:1B:51:5B:CB:3A:16:0A:23:FA:DB:29:5F:B4:B3:E9:F3:DF:81:79:B6:DA:BE:B3:44:AE"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "web",
+      "site": "https://39.107.84.95:8443"
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ai.nextbillion.testnavigationdeeplink",
+      "sha256_cert_fingerprints": [
+        "FA:00:BC:B0:BB:2C:3C:1B:51:5B:CB:3A:16:0A:23:FA:DB:29:5F:B4:B3:E9:F3:DF:81:79:B6:DA:BE:B3:44:AE"
+      ]
+    }
+  }
+]
